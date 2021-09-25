@@ -105,7 +105,7 @@
         app:srcCompat="@drawable/exchange_button_background" />
 
     <ImageView
-        android:id="@+id/imageView14"
+        android:id="@+id/budget"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -71,7 +71,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/income"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="187dp"
         android:layout_height="40dp"
@@ -100,10 +100,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.357"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+        app:layout_constraintTop_toBottomOf="@+id/income" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/rent"
 
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="213dp"
@@ -119,7 +119,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
-        android:id="@+id/editTextNumber3"
+        android:id="@+id/food"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="213dp"
         android:layout_height="42dp"
@@ -132,10 +132,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+        app:layout_constraintTop_toBottomOf="@+id/rent" />
 
     <EditText
-        android:id="@+id/editTextNumber4"
+        android:id="@+id/bill"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="213dp"
         android:layout_height="42dp"
@@ -148,10 +148,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber3" />
+        app:layout_constraintTop_toBottomOf="@+id/food" />
 
     <EditText
-        android:id="@+id/editTextNumber5"
+        android:id="@+id/travel"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="213dp"
         android:layout_height="42dp"
@@ -164,10 +164,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber4" />
+        app:layout_constraintTop_toBottomOf="@+id/bill" />
 
     <EditText
-        android:id="@+id/editTextNumber6"
+        android:id="@+id/family"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="213dp"
         android:layout_height="42dp"
@@ -180,10 +180,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber5" />
+        app:layout_constraintTop_toBottomOf="@+id/travel" />
 
     <EditText
-        android:id="@+id/editTextNumber7"
+        android:id="@+id/savings"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="213dp"
         android:layout_height="42dp"
@@ -196,10 +196,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber6" />
+        app:layout_constraintTop_toBottomOf="@+id/family" />
 
     <EditText
-        android:id="@+id/editTextNumber8"
+        android:id="@+id/other"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="213dp"
         android:layout_height="42dp"
@@ -212,7 +212,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber7" />
+        app:layout_constraintTop_toBottomOf="@+id/savings" />
 
     <Button
         android:id="@+id/calculate"
@@ -226,7 +226,7 @@
         android:textColor="#FFC107"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button4"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber8" />
+        app:layout_constraintTop_toBottomOf="@+id/other" />
 
     <Button
         android:id="@+id/button4"
@@ -244,7 +244,7 @@
         android:layout_height="36dp"
         android:layout_marginStart="88dp"
         android:layout_marginTop="12dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber"
+        app:layout_constraintEnd_toStartOf="@+id/income"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
@@ -269,7 +269,7 @@
         android:layout_height="26dp"
         android:layout_marginStart="49dp"
         android:layout_marginTop="28dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber3"
+        app:layout_constraintEnd_toStartOf="@+id/food"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9"
@@ -281,7 +281,7 @@
         android:layout_height="27dp"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber4"
+        app:layout_constraintEnd_toStartOf="@+id/bill"
         app:layout_constraintTop_toBottomOf="@+id/imageView10"
         app:srcCompat="@drawable/bills" />
 
@@ -291,18 +291,18 @@
         android:layout_height="29dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber5"
+        app:layout_constraintEnd_toStartOf="@+id/travel"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toBottomOf="@+id/imageView11"
         app:srcCompat="@drawable/travel" />
 
     <ImageView
-        android:id="@+id/imageView14"
+        android:id="@+id/budget"
         android:layout_width="32dp"
         android:layout_height="31dp"
         android:layout_marginTop="32dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber6"
+        app:layout_constraintEnd_toStartOf="@+id/family"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toBottomOf="@+id/imageView12"
         app:srcCompat="@drawable/family2" />
@@ -312,10 +312,10 @@
         android:layout_width="30dp"
         android:layout_height="26dp"
         android:layout_marginTop="40dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber7"
+        app:layout_constraintEnd_toStartOf="@+id/savings"
         app:layout_constraintHorizontal_bias="0.695"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/budget"
         app:srcCompat="@drawable/finance" />
 
     <ImageView
@@ -323,7 +323,7 @@
         android:layout_width="32dp"
         android:layout_height="33dp"
         android:layout_marginTop="32dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber8"
+        app:layout_constraintEnd_toStartOf="@+id/other"
         app:layout_constraintHorizontal_bias="0.731"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView15"
