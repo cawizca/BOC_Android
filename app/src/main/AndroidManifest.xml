@@ -16,6 +16,15 @@
             android:name=".IT19207100.BudgetCalculator"
             android:exported="true" />
         <activity
+            android:name=".MainPack.HeaderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Contact.ContactActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Services.ServiceMenu"
+            android:exported="true" />
+        <activity
             android:name=".HomeActivity"
             android:exported="true" />
         <activity
