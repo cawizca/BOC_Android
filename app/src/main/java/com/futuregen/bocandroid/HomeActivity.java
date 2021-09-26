@@ -9,12 +9,14 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.futuregen.bocandroid.Contact.ContactActivity;
+import com.futuregen.bocandroid.IT19210520.LoginActivity;
 import com.futuregen.bocandroid.Services.ServiceMenu;
 
 public class HomeActivity extends AppCompatActivity {
 
     private ImageButton service_btn;
     private ImageButton contact_btn;
+    private Button signin_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +24,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         service_btn = (ImageButton) findViewById(R.id.btn_service);
+
 
         service_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,6 +41,16 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent contsctIntent = new Intent(HomeActivity.this, ContactActivity.class);
                 startActivity(contsctIntent);
+            }
+        });
+
+        signin_btn =findViewById(R.id.btnhomesign);
+
+        signin_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i =new Intent(HomeActivity.this, LoginActivity.class);
+                startActivity(i);
             }
         });
     }
