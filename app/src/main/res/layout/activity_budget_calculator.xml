@@ -10,20 +10,20 @@
     >
 
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="420dp"
-        android:layout_height="863dp"
-        android:alpha="0.7"
-        android:background="@drawable/backg"
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView7"-->
+<!--        android:layout_width="420dp"-->
+<!--        android:layout_height="863dp"-->
+<!--        android:alpha="0.7"-->
+<!--        android:background="@drawable/backg"-->
 
-        android:minHeight="750dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.47"></ImageView>
+<!--        android:minHeight="750dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.555"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.47"></ImageView>-->
 
     <View
         android:id="@+id/view"

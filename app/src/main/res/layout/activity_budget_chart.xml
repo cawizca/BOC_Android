@@ -7,15 +7,15 @@
     tools:context=".IT19207100.BudgetChart">
 
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="420dp"
-        android:layout_height="863dp"
-        android:alpha="0.7"
-        android:background="@drawable/backg"
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView7"-->
+<!--        android:layout_width="420dp"-->
+<!--        android:layout_height="863dp"-->
+<!--        android:alpha="0.7"-->
+<!--        android:background="@drawable/backg"-->
 
-        android:minHeight="750dp"
-        tools:layout_editor_absoluteY="3dp"></ImageView>
+<!--        android:minHeight="750dp"-->
+<!--        tools:layout_editor_absoluteY="3dp"></ImageView>-->
 
     <com.github.mikephil.charting.charts.PieChart
         android:id="@+id/piechart"
