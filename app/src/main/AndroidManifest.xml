@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BOCAndroid">
         <activity
+            android:name=".IT19210520.SecurityQuesions"
+            android:exported="true" />
+        <activity
+            android:name=".IT19210520.OTP"
+            android:exported="true" />
+        <activity
+            android:name=".IT19210520.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".IT19210520.Forgot"
+            android:exported="true" />
+        <activity
             android:name=".IT19207100.BudgetChart"
             android:exported="true" />
         <activity

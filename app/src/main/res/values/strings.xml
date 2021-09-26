@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">BOC Android</string>
+
+    <string name="bapp">B App </string>
+    <string name="login">LogIn </string>
+    <string name="loginsub"> Please sign into continue </string>
+    <string name="username"> User Name </string>
+    <string name="Password"> Password </string>
+    <string name="ButtonUnlock"> Unlock </string>
+    <string name="Buttonlogin"> LOGIN </string>
+    <string name="txtForgot"> Forgot Password? </string>
+    <string name="signupguide"> Do not have an account?</string>
+    <string name="signup"> Sign Up</string>
+    <string name="ForgotHeader"> Forgot Password?</string>
+    <string name="userIdGuide">Please enter user Id to continue</string>
+    <string name="userId">User Id</string>\
+    <string name="btnCancel">Cancel</string>
+    <string name="buttonSubmit">Submit</string>
+    <string name="OTPHeading">OTP Verification</string>
+    <string name="refno">Reference Number - 78493734272810</string>
+    <string name="otpdef"> A one time Password has been generated
+    and dispatched to your mobile number for
+    this transaction. Kindly enter the One Time
+    Password in the field below for this
+    transaction to proceed.
+    The One Time Password is only valid for
+    next 5 minutes
+
+
+    </string>
+
+    <string name="txtotp">OTP</string>
+
+    <string name="textnotrecive"> Did not recive OTP?</string>
+    <string name="resendtxt"> Resend</string>
+
+    <string name="Securityheadding"> Security
+                Questions
+    </string>
+
 </resources>
