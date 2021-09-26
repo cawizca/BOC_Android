@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IT19207100.MoneyTransfer.TransferForm">
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView14"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:alpha="0.7"-->
+    <!--        android:background="@drawable/backg"-->
+
+    <!--        android:minHeight="750dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.555"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.47"></ImageView>-->
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="344dp"
+        android:layout_height="646dp"
+        android:layout_marginTop="108dp"
+        android:alpha="0.9"
+        android:background="@drawable/budgetcard"
+        android:backgroundTint="#D80E0B0B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="Own Account Transfer"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        android:text="From:"
+        android:textColor="#FF9800"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="84dp"
+        android:text="Transfer To:"
+        android:textColor="#FF9800"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="40dp"
+        android:text="Amount:"
+        android:textColor="#FF9800"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="56dp"
+        android:text="Narrative:"
+        android:textColor="#FF9800"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="316dp"
+        android:background="@color/primary_yellow"
+        android:backgroundTint="#FFC107"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <EditText
+
+
+        android:id="@+id/editTextTextPersonName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="287dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/outlined"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="   Account number"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <EditText
+
+
+        android:id="@+id/editTextTextPersonName4"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="241dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/outlined"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="  Enter Amount"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.318"
+        app:layout_constraintStart_toEndOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+    <EditText
+
+
+        android:id="@+id/editTextTextPersonName5"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="241dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/outlined"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="  Enter Narrative"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.276"
+        app:layout_constraintStart_toEndOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+
+    <EditText
+
+
+        android:id="@+id/editTextTextPersonName3"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="287dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/outlined"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="   Account Holder Name"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+
+    <Button
+        android:id="@+id/paynow"
+        android:layout_width="164dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/dark_background"
+        android:text="Pay Now"
+        android:textColor="#FFC107"
+        app:layout_constraintBaseline_toBaselineOf="@+id/paynow2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/paynow2"
+        android:layout_width="143dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/dark_background"
+        android:text="Pay On"
+        android:textColor="#FFC107"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+
+    <Button
+        android:id="@+id/paynow3"
+        android:layout_width="176dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/dark_background"
+        android:text="Pay Periodically"
+        android:textColor="#FFC107"
+        app:layout_constraintBaseline_toBaselineOf="@+id/paynow4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/paynow4"
+        android:layout_width="135dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="Pay Now"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toEndOf="@+id/paynow3"
+        app:layout_constraintTop_toBottomOf="@+id/paynow2" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="222dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/outlined"
+        android:backgroundTint="#FFFFFF"
+        android:entries="@array/beneficiary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="222dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/outlined"
+        android:backgroundTint="#FFFFFF"
+        android:entries="@array/beneficiary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+</androidx.constraintlayout.widget.ConstraintLayout>
