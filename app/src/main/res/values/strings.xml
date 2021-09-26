@@ -38,4 +38,13 @@
                 Questions
     </string>
 
+
+    <string-array name="beneficiary">Select Transmission
+
+        <item>Choose from Beneficiary</item>
+        <item>P.G.Perera</item>
+        <item>K.M. Kumara</item>
+    </string-array>
+
+
 </resources>
