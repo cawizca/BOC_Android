@@ -6,20 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".IT19207100.MoneyTransfer.VerifyTransfer">
 
-    <!--    <ImageView-->
-    <!--        android:id="@+id/imageViewt"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="match_parent"-->
-    <!--        android:alpha="0.7"-->
-    <!--        android:background="@drawable/backg"-->
+        <ImageView
+            android:id="@+id/imageViewt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.7"
+            android:background="@drawable/backg"
 
-    <!--        android:minHeight="750dp"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintHorizontal_bias="0.555"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent"-->
-    <!--        app:layout_constraintVertical_bias="0.47"></ImageView>-->
+            android:minHeight="750dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.47"></ImageView>
 
     <View
         android:id="@+id/viewt"
@@ -113,11 +113,11 @@
         android:backgroundTint="@android:color/holo_red_light"
         android:text="Change"
         android:textColor="#FFFFFF"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/confirm"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/confirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
