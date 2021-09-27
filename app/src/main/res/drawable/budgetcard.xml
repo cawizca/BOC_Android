@@ -9,7 +9,7 @@
 
     </stroke>
 
-
+<solid android:color="#D80E0B0B"></solid>
 
 
     <corners android:bottomLeftRadius="45dp"

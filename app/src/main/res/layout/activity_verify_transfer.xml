@@ -28,7 +28,6 @@
         android:layout_marginTop="132dp"
         android:alpha="0.9"
         android:background="@drawable/budgetcard"
-        android:backgroundTint="#D80E0B0B"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
