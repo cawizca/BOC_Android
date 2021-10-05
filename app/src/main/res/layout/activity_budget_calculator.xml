@@ -277,7 +277,7 @@
         app:srcCompat="@drawable/food" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/apply_loan_btn"
         android:layout_width="26dp"
         android:layout_height="27dp"
         android:layout_marginTop="35dp"
@@ -295,7 +295,7 @@
         app:layout_constraintEnd_toStartOf="@+id/travel"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/view"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/apply_loan_btn"
         app:srcCompat="@drawable/travel" />
 
     <ImageView
