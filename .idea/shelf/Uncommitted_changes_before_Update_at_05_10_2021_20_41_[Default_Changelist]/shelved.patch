@@ -1,0 +1,73 @@
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision f620997f3df8f5b26f5da2bb42e3a520e1dbcffd)
++++ /dev/null	(revision f620997f3df8f5b26f5da2bb42e3a520e1dbcffd)
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision f620997f3df8f5b26f5da2bb42e3a520e1dbcffd)
++++ b/.idea/vcs.xml	(date 1632636210442)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++    <mapping directory="" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"DesignSurface\">\r\n    <option name=\"filePathToZoomLevelMap\">\r\n      <map>\r\n        <entry key=\"..\\:/Flutter Projects/BOCAndroid/app/src/main/res/layout/activity_home.xml\" value=\"0.22\" />\r\n        <entry key=\"..\\:/Flutter Projects/BOCAndroid/app/src/main/res/layout/activity_main.xml\" value=\"0.22\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"1.8 (13)\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision f620997f3df8f5b26f5da2bb42e3a520e1dbcffd)
++++ b/.idea/misc.xml	(date 1632770049920)
+@@ -3,8 +3,12 @@
+   <component name="DesignSurface">
+     <option name="filePathToZoomLevelMap">
+       <map>
+-        <entry key="..\:/Flutter Projects/BOCAndroid/app/src/main/res/layout/activity_home.xml" value="0.22" />
+-        <entry key="..\:/Flutter Projects/BOCAndroid/app/src/main/res/layout/activity_main.xml" value="0.22" />
++        <entry key="..\:/Udara android/BOC_Android/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
++        <entry key="..\:/Udara android/BOC_Android/app/src/main/res/layout/activity_loan_agreement1.xml" value="0.25" />
++        <entry key="..\:/Udara android/BOC_Android/app/src/main/res/layout/activity_loan_agreement2.xml" value="0.23157894736842105" />
++        <entry key="..\:/Udara android/BOC_Android/app/src/main/res/layout/activity_loan_agreement3.xml" value="0.25" />
++        <entry key="..\:/Udara android/BOC_Android/app/src/main/res/layout/activity_login.xml" value="0.23157894736842105" />
++        <entry key="..\:/Udara android/BOC_Android/app/src/main/res/layout/activity_service_menu.xml" value="0.2293159609120521" />
+       </map>
+     </option>
+   </component>
+Index: .idea/deploymentTargetDropDown.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"deploymentTargetDropDown\">\r\n    <targetSelectedWithDropDown>\r\n      <Target>\r\n        <type value=\"QUICK_BOOT_TARGET\" />\r\n        <deviceKey>\r\n          <Key>\r\n            <type value=\"VIRTUAL_DEVICE_PATH\" />\r\n            <value value=\"C:\\Users\\Kavishka\\.android\\avd\\Pixel_4_XL_API_29.avd\" />\r\n          </Key>\r\n        </deviceKey>\r\n      </Target>\r\n    </targetSelectedWithDropDown>\r\n    <timeTargetWasSelectedWithDropDown value=\"2021-09-15T18:01:35.498040600Z\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/deploymentTargetDropDown.xml b/.idea/deploymentTargetDropDown.xml
+--- a/.idea/deploymentTargetDropDown.xml	(revision f620997f3df8f5b26f5da2bb42e3a520e1dbcffd)
++++ b/.idea/deploymentTargetDropDown.xml	(date 1632832341420)
+@@ -12,6 +12,6 @@
+         </deviceKey>
+       </Target>
+     </targetSelectedWithDropDown>
+-    <timeTargetWasSelectedWithDropDown value="2021-09-15T18:01:35.498040600Z" />
++    <timeTargetWasSelectedWithDropDown value="2021-09-28T12:29:50.888627100Z" />
+   </component>
+ </project>
+\ No newline at end of file
