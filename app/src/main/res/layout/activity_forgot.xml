@@ -10,11 +10,12 @@
         android:id="@+id/constraintLayout"
         android:layout_width="422dp"
         android:layout_height="38dp"
-        android:layout_marginTop="798dp"
-        android:layout_marginBottom="33dp"
+        android:layout_marginTop="771dp"
+        android:layout_marginBottom="37dp"
         android:background="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -59,7 +60,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="318dp"
         android:layout_marginBottom="12dp"
-        android:fontFamily="sans-serif-condensed"
+        android:fontFamily="@font/poppins"
         android:text="@string/username"
         android:textColor="#333333"
         android:textSize="16sp"
@@ -75,6 +76,7 @@
         android:layout_marginStart="83dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="57dp"
+        android:fontFamily="@font/poppins_light"
         android:text="@string/userIdGuide"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
@@ -102,9 +104,10 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="245dp"
-        android:layout_height="54dp"
+        android:layout_width="263dp"
+        android:layout_height="56dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_semibold"
         android:text="@string/ForgotHeader"
         android:textColor="#333333"
         android:textSize="27sp"
@@ -159,46 +162,65 @@
 
     <EditText
         android:id="@+id/inputUserID"
-        android:layout_width="292dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="261dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/text_field_cus"
+        android:elevation="5dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+
         app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.172"
         app:layout_constraintStart_toEndOf="@+id/cardView"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnCancel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="116dp"
+        android:layout_height="66dp"
         android:layout_marginStart="21dp"
-        android:layout_marginTop="562dp"
+        android:layout_marginTop="588dp"
         android:layout_marginEnd="164dp"
-        android:backgroundTint="@color/black"
+
+        android:backgroundTint="@color/dark_background"
+
+        android:fontFamily="@font/poppins"
+
         android:text="@string/btnCancel"
-        android:textColor="#FFBB06"
-        app:cornerRadius="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/primary_yellow"
+        android:textSize="15dp"
+
+        app:cornerRadius="5dp"
         app:layout_constraintEnd_toStartOf="@+id/btnSubmit"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnSubmit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="560dp"
+        android:layout_width="116dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="588dp"
         android:layout_marginEnd="38dp"
-        android:backgroundTint="@color/black"
+
+        android:backgroundTint="@color/dark_background"
+
+        android:fontFamily="@font/poppins"
+
         android:text="@string/buttonSubmit"
-        android:textColor="#FFBB06"
-        app:cornerRadius="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/primary_yellow"
+        android:textSize="15dp"
+
+        app:cornerRadius="5dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.99"
         app:layout_constraintStart_toEndOf="@+id/cardView"
         app:layout_constraintTop_toTopOf="parent" />
 

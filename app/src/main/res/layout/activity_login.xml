@@ -164,11 +164,14 @@
         android:layout_marginStart="154dp"
         android:layout_marginTop="498dp"
         android:layout_marginEnd="154dp"
-        android:backgroundTint="@color/black"
+
         android:text="@string/ButtonUnlock"
-        android:textColor="#FFBB06"
-        app:cornerRadius="10dp"
-        app:iconTint="@color/black"
+        android:backgroundTint="@color/dark_background"
+
+        android:textAllCaps="false"
+        android:textColor="@color/primary_yellow"
+        android:textSize="20dp"
+        app:cornerRadius="8dp"
         app:layout_constraintBottom_toTopOf="@+id/btnlogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -180,10 +183,16 @@
         android:layout_width="280dp"
         android:layout_height="51dp"
         android:layout_marginTop="554dp"
-        android:backgroundTint="@color/black"
+
         android:text="@string/Buttonlogin"
-        android:textColor="#FFBB06"
-        app:cornerRadius="10dp"
+
+        android:backgroundTint="@color/dark_background"
+
+        android:textAllCaps="false"
+        android:textColor="@color/primary_yellow"
+        android:textSize="20dp"
+        app:cornerRadius="8dp"
+
         app:layout_constraintBottom_toTopOf="@+id/textView9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"

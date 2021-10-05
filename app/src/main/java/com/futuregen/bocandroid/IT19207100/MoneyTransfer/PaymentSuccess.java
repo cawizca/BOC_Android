@@ -1,4 +1,4 @@
-package com.futuregen.bocandroid.IT19210520;
+package com.futuregen.bocandroid.IT19207100.MoneyTransfer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,21 +9,20 @@ import android.widget.Button;
 
 import com.futuregen.bocandroid.R;
 
-public class OTP extends AppCompatActivity {
+public class PaymentSuccess extends AppCompatActivity {
 
-    Button submit;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_otp);
+        setContentView(R.layout.activity_payment_success);
 
-        submit = findViewById(R.id.bynOTPSub);
+        Button ok = findViewById(R.id.ok);
 
-        submit.setOnClickListener(new View.OnClickListener() {
+        ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(OTP.this,SecurityQuesions.class);
-                startActivity(i);
+                Intent serviceIntent = new Intent(PaymentSuccess.this, TransferForm.class);
+                startActivity(serviceIntent);
             }
         });
     }
