@@ -19,7 +19,8 @@ import java.util.Locale;
 
 public class VerifyTransfer extends AppCompatActivity {
     String acname, narrative , myname;
-    int acno, amount , myno;
+    int acno , myno;
+    double amount;
 
     TextView payable, description, date, Toname, Tono  , Myno , Myname;
 
@@ -87,7 +88,7 @@ public class VerifyTransfer extends AppCompatActivity {
 
         acname = getIntent().getStringExtra("acname");
 
-        amount = getIntent().getIntExtra("amount", 1);
+        amount = getIntent().getDoubleExtra("amount", 100.585);
         narrative = getIntent().getStringExtra("narrative");
 
 

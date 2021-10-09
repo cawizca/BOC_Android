@@ -138,7 +138,7 @@
         android:paddingLeft="5dp"
         android:ems="10"
         android:hint="  Enter Amount"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toEndOf="@+id/textView22"
