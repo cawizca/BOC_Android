@@ -38,4 +38,14 @@
                 Questions
     </string>
 
+    <string name="resettitle">Reset Password</string>
+    <string name="txtNewPassword">New Password</string>
+    <string name="txtConfirmPassword">Confirm Password</string>
+    <string name="txtpasswordPolicy">Password Policy</string>
+    <string name="txtpp1">Should be maximum 15 characters</string>
+    <string name="txtpp2">Should be minimum 8 characters</string>
+    <string name="txtpp3">Can contain lower case alphabets</string>
+    <string name="profiletiltle">Your Profile</string>
+
+
 </resources>

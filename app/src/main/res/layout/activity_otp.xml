@@ -4,7 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F3F3F3"
     tools:context=".IT19210520.OTP">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="422dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="771dp"
+        android:layout_marginBottom="37dp"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="66dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/boclogo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
         android:id="@+id/textView14"
@@ -14,7 +40,7 @@
         android:layout_marginTop="541dp"
         android:layout_marginEnd="356dp"
         android:layout_marginBottom="306dp"
-        android:fontFamily="sans-serif-condensed"
+        android:fontFamily="@font/poppins_medium"
         android:text="@string/txtotp"
         android:textColor="#333333"
         android:textSize="16sp"
@@ -118,12 +144,13 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="216dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="97dp"
+        android:layout_width="250dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="93dp"
         android:layout_marginTop="314dp"
-        android:layout_marginEnd="98dp"
-        android:layout_marginBottom="500dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="502dp"
+        android:fontFamily="@font/poppins_semibold"
         android:text="@string/OTPHeading"
         android:textColor="#333333"
         android:textSize="27sp"
@@ -141,6 +168,7 @@
         android:layout_marginTop="349dp"
         android:layout_marginEnd="77dp"
         android:layout_marginBottom="485dp"
+        android:fontFamily="@font/poppins_light"
         android:text="@string/refno"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -156,7 +184,7 @@
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="351dp"
         android:background="@drawable/udarabutton"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/poppins"
         android:text="@string/otpdef"
         android:textAlignment="center"
         android:textColor="#333333"
@@ -166,7 +194,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/otp1"
         android:layout_width="62dp"
         android:layout_height="61dp"
         android:layout_marginStart="60dp"
@@ -184,7 +212,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber5"
+        android:id="@+id/otp3"
         android:layout_width="62dp"
         android:layout_height="61dp"
         android:layout_marginStart="220dp"
@@ -202,7 +230,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber7"
+        android:id="@+id/otp4"
         android:layout_width="62dp"
         android:layout_height="61dp"
         android:layout_marginStart="301dp"
@@ -220,7 +248,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber6"
+        android:id="@+id/otp2"
         android:layout_width="62dp"
         android:layout_height="61dp"
         android:layout_marginStart="140dp"
@@ -239,22 +267,22 @@
 
     <Button
         android:id="@+id/bynOTPSub"
-        android:layout_width="165dp"
-        android:layout_height="48dp"
+        android:layout_width="163dp"
+        android:layout_height="65dp"
         android:layout_marginStart="123dp"
-        android:layout_marginTop="685dp"
+
+        android:layout_marginTop="690dp"
         android:layout_marginEnd="123dp"
-        android:layout_marginBottom="136dp"
+
+        android:layout_marginBottom="110dp"
+        android:backgroundTint="@color/dark_background"
+        android:fontFamily="@font/poppins"
 
         android:text="@string/buttonSubmit"
-
-        android:backgroundTint="@color/dark_background"
-
         android:textAllCaps="false"
         android:textColor="@color/primary_yellow"
-        android:textSize="20dp"
+        android:textSize="16sp"
         app:cornerRadius="8dp"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -268,8 +296,10 @@
         android:layout_marginTop="652dp"
         android:layout_marginEnd="176dp"
         android:layout_marginBottom="198dp"
+        android:fontFamily="@font/poppins_light"
         android:text="@string/textnotrecive"
         android:textColor="#757171"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -279,12 +309,14 @@
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="242dp"
-        android:layout_marginTop="652dp"
-        android:layout_marginEnd="123dp"
-        android:layout_marginBottom="198dp"
+        android:layout_marginStart="265dp"
+        android:layout_marginTop="651dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="196dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="@string/resendtxt"
         android:textColor="#EA890A"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
