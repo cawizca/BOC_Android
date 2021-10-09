@@ -21,7 +21,7 @@ import java.util.ArrayList;
 public class BudgetChart extends AppCompatActivity {
 
     TextView save,expense;
-    int test=0, income=0, rent=0, food=0, bill=0, travel=0, family=0, savings=0, other=0;
+    double test=0, income=0, rent=0, food=0, bill=0, travel=0, family=0, savings=0, other=0;
 
 
     String[] months = {"Savings", "Family", "Food", "Travel", "Insurance", "Bills", "Loan", "Other"};
@@ -70,21 +70,21 @@ public class BudgetChart extends AppCompatActivity {
         ArrayList<PieEntry> entries =new ArrayList<>();
 
 
-        entries.add(new PieEntry(income-rent-food-bill-travel-family-savings-other,"income"));
+        entries.add(new PieEntry((float) (income-rent-food-bill-travel-family-savings-other),"income"));
         if(rent!=0)
-            entries.add(new PieEntry(rent,"rent"));
+            entries.add(new PieEntry((float) rent,"rent"));
         if(food!=0)
-            entries.add(new PieEntry(food,"food"));
+            entries.add(new PieEntry((float) food,"food"));
         if(bill!=0)
-            entries.add(new PieEntry(bill,"bill"));
+            entries.add(new PieEntry((float) bill,"bill"));
         if(travel!=0)
-            entries.add(new PieEntry(travel,"travel"));
+            entries.add(new PieEntry((float) travel,"travel"));
         if(family!=0)
-            entries.add(new PieEntry(family,"family"));
+            entries.add(new PieEntry((float) family,"family"));
         if(savings!=0)
-            entries.add(new PieEntry(savings,"savings"));
+            entries.add(new PieEntry((float) savings,"savings"));
         if(other!=0)
-            entries.add(new PieEntry(other,"other"));
+            entries.add(new PieEntry((float) other,"other"));
 
 
 //
@@ -125,17 +125,25 @@ public class BudgetChart extends AppCompatActivity {
 
     private void getData() {
 
-        income = getIntent().getIntExtra("income", 1);
-        rent = getIntent().getIntExtra("rent", 1);
-        food = getIntent().getIntExtra("food", 1);
-        bill = getIntent().getIntExtra("bill", 1);
-        travel = getIntent().getIntExtra("travel", 1);
-        family = getIntent().getIntExtra("family", 1);
-        savings = getIntent().getIntExtra("savings", 1);
-        other = getIntent().getIntExtra("other", 1);
+        income = getIntent().getDoubleExtra("income", 1);
+        rent = getIntent().getDoubleExtra("rent", 1);
+        food = getIntent().getDoubleExtra("food", 1);
+        bill = getIntent().getDoubleExtra("bill", 1);
+        travel = getIntent().getDoubleExtra("travel", 1);
+        family = getIntent().getDoubleExtra("family", 1);
+        savings = getIntent().getDoubleExtra("savings", 1);
+        other = getIntent().getDoubleExtra("other", 1);
 
-        save.setText("Rs. "+String.valueOf(income-(rent+food+bill+travel+family+savings+other)));
-        expense.setText("Rs. "+String.valueOf(rent+food+bill+travel+family+savings+other));
+//        save.setText("Rs. "+String.valueOf(income-(rent+food+bill+travel+family+savings+other)));
+        double saved= income-(rent+food+bill+travel+family+savings+other);
+
+        double expensed= rent+food+bill+travel+family+savings+other;
+
+        save.setText("Rs." + String.format("%.2f",saved));
+        expense.setText("Rs." + String.format("%.2f",expensed));
+
+
+//        expense.setText("Rs. "+String.valueOf(rent+food+bill+travel+family+savings+other));
 
     }
 

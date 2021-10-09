@@ -156,7 +156,7 @@ public class TransferForm extends AppCompatActivity {
 
                         serviceIntent.putExtra("acno", no1);
                         serviceIntent.putExtra("acname", spinnerTransfer.getSelectedItem().toString());
-                        serviceIntent.putExtra("amount", Integer.parseInt(amount.getText().toString().trim()));
+                        serviceIntent.putExtra("amount", Double.parseDouble(amount.getText().toString().trim()));
                         serviceIntent.putExtra("narrative", narrative.getText().toString().trim());
                         startActivity(serviceIntent);
 

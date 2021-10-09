@@ -28,6 +28,17 @@ public class DBHandler extends SQLiteOpenHelper {
                         DBMaster.Transaction.COLUMN_AMOUNT + " TEXT )";
 
         db.execSQL(CREATE_WORKER);
+
+
+        String CREATE_USER =
+                "CREATE TABLE " + DBMaster.Register.TABLE_NAME + "(" +
+                        DBMaster.Register._ID + " INTEGER PRIMARY KEY," +
+                        DBMaster.Register.COLUMN_USER_NAME + " TEXT," +
+                        DBMaster.Register.COLUMN_PASSWORD + " TEXT )";
+
+        db.execSQL(CREATE_USER);
+
+
     }
 
 
@@ -44,6 +55,19 @@ public class DBHandler extends SQLiteOpenHelper {
 
 
         return db.insert(DBMaster.Transaction.TABLE_NAME, null, cv);
+    }
+
+
+    public long registerUser(String username, String password) {
+
+        SQLiteDatabase db = getWritableDatabase();
+        ContentValues cv = new ContentValues();
+
+        cv.put(DBMaster.Register.COLUMN_USER_NAME, username);
+        cv.put(DBMaster.Register.COLUMN_PASSWORD, password);
+
+
+        return db.insert(DBMaster.Register.TABLE_NAME, null, cv);
     }
 
 

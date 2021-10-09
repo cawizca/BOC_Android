@@ -37,79 +37,79 @@ public class BudgetCalculator extends AppCompatActivity {
             public void onClick(View view) {
                 Intent in = new Intent(BudgetCalculator.this,BudgetChart.class);
 
-                in.putExtra("income", Integer.parseInt(income.getText().toString().trim()) );
+                in.putExtra("income", Double.parseDouble(income.getText().toString().trim()) );
 
                 //rent
                 if(rent.getText().toString().length()==0){
                     rent.setText("0");
-                    in.putExtra("rent", Integer.parseInt(rent.getText().toString().trim()) );
+                    in.putExtra("rent", Double.parseDouble(rent.getText().toString().trim()) );
                 }
 
                 else{
-                    in.putExtra("rent", Integer.parseInt(rent.getText().toString().trim()) );
+                    in.putExtra("rent", Double.parseDouble(rent.getText().toString().trim()) );
                 }
 
                 //food
                 if(food.getText().toString().length()==0){
                     food.setText("0");
-                    in.putExtra("food", Integer.parseInt(food.getText().toString().trim()) );
+                    in.putExtra("food", Double.parseDouble(food.getText().toString().trim()) );
                 }
 
                 else{
-                    in.putExtra("food", Integer.parseInt(food.getText().toString().trim()) );
+                    in.putExtra("food", Double.parseDouble(food.getText().toString().trim()) );
                 }
 
 
                 //bill
                 if(bill.getText().toString().length()==0){
                     bill.setText("0");
-                    in.putExtra("bill", Integer.parseInt(bill.getText().toString().trim()) );
+                    in.putExtra("bill", Double.parseDouble(bill.getText().toString().trim()) );
                 }
 
                 else{
-                    in.putExtra("bill", Integer.parseInt(bill.getText().toString().trim()) );
+                    in.putExtra("bill", Double.parseDouble(bill.getText().toString().trim()) );
                 }
 
                 //travel
                 if(travel.getText().toString().length()==0){
                     travel.setText("0");
-                    in.putExtra("travel", Integer.parseInt(travel.getText().toString().trim()) );
+                    in.putExtra("travel", Double.parseDouble(travel.getText().toString().trim()) );
                 }
 
                 else{
-                    in.putExtra("travel", Integer.parseInt(travel.getText().toString().trim()) );
+                    in.putExtra("travel", Double.parseDouble(travel.getText().toString().trim()) );
                 }
 
 
                 //family
                 if(family.getText().toString().length()==0){
                     family.setText("0");
-                    in.putExtra("family", Integer.parseInt(family.getText().toString().trim()) );
+                    in.putExtra("family", Double.parseDouble(family.getText().toString().trim()) );
                 }
 
                 else{
-                    in.putExtra("family", Integer.parseInt(family.getText().toString().trim()) );
+                    in.putExtra("family", Double.parseDouble(family.getText().toString().trim()) );
                 }
 
                 //savings
                 if(savings.getText().toString().length()==0){
                     savings.setText("0");
-                    in.putExtra("savings", Integer.parseInt(savings.getText().toString().trim()) );
+                    in.putExtra("savings", Double.parseDouble(savings.getText().toString().trim()) );
                 }
 
                 else{
-                    in.putExtra("savings", Integer.parseInt(savings.getText().toString().trim()) );
+                    in.putExtra("savings", Double.parseDouble(savings.getText().toString().trim()) );
                 }
 
 
                 //other
                 if(other.getText().toString().length()==0){
                     other.setText("0");
-                    in.putExtra("other", Integer.parseInt(other.getText().toString().trim()) );
+                    in.putExtra("other", Double.parseDouble(other.getText().toString().trim()) );
                 }
 
                 else{
-                    in.putExtra("other", Integer.parseInt(other.getText().toString().trim()) );
+                    in.putExtra("other", Double.parseDouble(other.getText().toString().trim()) );
                 }
 
 
