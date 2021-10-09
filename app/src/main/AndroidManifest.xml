@@ -10,7 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BOCAndroid">
         <activity
-
+            android:name=".IT19209012.Dashboard"
+            android:exported="true" />
+        <activity
             android:name=".IT19210520.Profile"
             android:exported="true" />
         <activity
@@ -35,7 +37,22 @@
             android:name=".IT19209012.ServicesMenu"
             android:exported="true" />
         <activity
-            android:name=".IT19209012.Dashboard"
+            android:name=".Exchange.ExchangeRates"
+            android:exported="true" />
+        <activity
+            android:name=".ApplyLoan.LoanConfirm"
+            android:exported="true" />
+        <activity
+            android:name=".ApplyLoan.LoanForm3"
+            android:exported="true" />
+        <activity
+            android:name=".ApplyLoan.LoanForm2"
+            android:exported="true" />
+        <activity
+            android:name=".ApplyLoan.LoanForm1"
+            android:exported="true" />
+        <activity
+            android:name=".IT19209012.BillActivity"
             android:exported="true" />
         <activity
             android:name=".ApplyLoan.LoanAgreement3"
@@ -45,7 +62,6 @@
             android:exported="true" />
         <activity
             android:name=".ApplyLoan.LoanAgreement1"
-
             android:exported="true" />
         <activity
             android:name=".IT19210520.SecurityQuesions"

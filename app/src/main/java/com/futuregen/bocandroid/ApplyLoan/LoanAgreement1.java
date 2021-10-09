@@ -18,7 +18,7 @@ public class LoanAgreement1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loan_agreement1);
 
-        btn_next1 = findViewById(R.id.next_button2);
+        btn_next1 = findViewById(R.id.agree_btn);
 
         btn_next1.setOnClickListener(new View.OnClickListener() {
             @Override

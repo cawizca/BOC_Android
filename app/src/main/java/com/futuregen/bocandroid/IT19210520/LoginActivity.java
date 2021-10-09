@@ -73,7 +73,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if ((username.equals("udaraMadhuranga")) && (password.equals("12345678"))) {
 
-            Intent i = new Intent(LoginActivity.this,Dashboard.class);
+            Intent i = new Intent(LoginActivity.this, Dashboard.class);
             startActivity(i);
 
         }

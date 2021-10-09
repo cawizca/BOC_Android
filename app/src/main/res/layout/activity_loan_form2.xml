@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApplyLoan.LoanForm1">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ApplyLoan.LoanForm1">
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="416dp"
+            android:layout_height="412dp"
+            android:layout_marginBottom="2396dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/pattern_back" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="427dp"
+            android:layout_height="329dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/loan_agreeament" />
+
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="420dp"
+            android:layout_height="520dp"
+            android:layout_marginTop="204dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.888"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView14"
+            app:srcCompat="@drawable/home_rounded_square" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="412dp"
+            android:layout_height="527dp"
+            android:layout_marginTop="148dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView25"
+            app:srcCompat="@drawable/home_rounded_square" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView24"
+            app:srcCompat="@drawable/loan_details" />
+
+        <TextView
+            android:id="@+id/name_title_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Preferred Branch"
+            android:textColor="@color/dark_background"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.215"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView27" />
+
+        <EditText
+            android:id="@+id/cus_branch"
+            android:layout_width="261dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/text_field_cus"
+            android:elevation="5dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name_title_contact" />
+
+
+        <TextView
+            android:id="@+id/phone_title_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Repayment Method:"
+            android:textColor="@color/dark_background"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.163"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+        <EditText
+            android:id="@+id/repay_meth"
+            android:layout_width="261dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/text_field_cus"
+            android:elevation="5dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/phone_title_contact" />
+
+        <TextView
+            android:id="@+id/nic_title_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Loan Amount:"
+            android:textColor="@color/dark_background"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.178"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/repay_meth" />
+
+        <EditText
+            android:id="@+id/loan_amnt"
+            android:layout_width="261dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/text_field_cus"
+            android:elevation="5dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:paddingStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nic_title_contact" />
+
+        <TextView
+            android:id="@+id/nic_title_contact1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Repayment Period:"
+            android:textColor="@color/dark_background"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.178"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loan_amnt" />
+
+        <EditText
+            android:id="@+id/repay_period"
+            android:layout_width="261dp"
+            android:layout_height="53dp"
+            android:background="@drawable/text_field_cus"
+            android:elevation="5dp"
+            android:ems="10"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:paddingStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nic_title_contact1" />
+
+
+        <Button
+            android:id="@+id/nxt2_btn"
+            android:layout_width="256dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/dark_background"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textColor="@color/primary_yellow"
+            android:textSize="20dp"
+            app:cornerRadius="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
