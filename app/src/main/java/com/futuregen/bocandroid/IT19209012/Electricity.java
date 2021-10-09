@@ -44,7 +44,7 @@ public class Electricity extends AppCompatActivity {
 
                 awesomeValidation.addValidation(Electricity.this, R.id.accountno,
                         RegexTemplate.NOT_EMPTY, R.string.fill);
-
+    //fff
                 if (awesomeValidation.validate()) {
                     //StyleableToast.makeText(Electricity.this, "Please Enter CEB Bill Number", R.style.mytoast).show();
 
