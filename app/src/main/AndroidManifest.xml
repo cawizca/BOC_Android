@@ -15,7 +15,8 @@
             android:exported="true" />
         <activity
             android:name=".IT19210520.ResetPassword"
-
+            android:exported="true" />
+        <activity
             android:name=".IT19207100.MoneyTransfer.PaymentSuccess"
             android:exported="true" />
         <activity

@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import android.widget.EditText;
-=======
+
 
 import android.widget.TextView;
 import android.widget.Toast;
@@ -29,7 +29,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         forgot =findViewById(R.id.txtForgot);
-<
+
         username = findViewById(R.id.loginUserNameId);
         Password =findViewById(R.id.loginPasswordId);
         login = findViewById(R.id.btnlogin);
@@ -73,7 +73,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if ((username.equals("udaraMadhuranga")) && (password.equals("12345678"))) {
 
-            Intent i = new Intent(LoginActivity.this,Forgot.class);
+            Intent i = new Intent(LoginActivity.this,Dashboard.class);
             startActivity(i);
 
         }

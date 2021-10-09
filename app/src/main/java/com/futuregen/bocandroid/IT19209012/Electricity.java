@@ -48,7 +48,7 @@ public class Electricity extends AppCompatActivity {
                 if (awesomeValidation.validate()) {
                     //StyleableToast.makeText(Electricity.this, "Please Enter CEB Bill Number", R.style.mytoast).show();
 
-                    return;
+
                 } else if (accountNO.length() != 12) {
                     StyleableToast.makeText(Electricity.this, "CEB Bill Number in Invalid", R.style.mytoast).show();
                     return;
