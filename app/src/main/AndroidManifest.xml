@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BOCAndroid">
         <activity
+            android:name=".IT19207100.MoneyTransfer.PaymentSuccess"
+            android:exported="true" />
+        <activity
+            android:name=".IT19207100.MoneyTransfer.VerifyTransfer"
+            android:exported="true" />
+        <activity
+            android:name=".IT19207100.MoneyTransfer.TransferForm"
+            android:exported="true" />
+        <activity
             android:name=".IT19209012.BillElectricity"
             android:exported="true" />
         <activity

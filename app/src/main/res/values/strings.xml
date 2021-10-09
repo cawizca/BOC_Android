@@ -38,6 +38,7 @@
                 Questions
     </string>
     <string name="fill">Please Fill the Field</string>
+    <string name="accountNo">Please Enter account number</string>
 
 
     <string-array name="beneficiary">Select Transmission

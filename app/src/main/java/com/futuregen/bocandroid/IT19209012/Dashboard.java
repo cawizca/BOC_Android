@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.futuregen.bocandroid.IT19207100.MoneyTransfer.TransferForm;
 import com.futuregen.bocandroid.R;
 
 public class Dashboard extends AppCompatActivity {
@@ -23,6 +24,7 @@ public class Dashboard extends AppCompatActivity {
 
 
         Button button = findViewById(R.id.pay_bills);
+        Button own = findViewById(R.id.own_account);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -30,6 +32,15 @@ public class Dashboard extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        own.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Dashboard.this, TransferForm.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 }
