@@ -37,13 +37,24 @@
     <string name="Securityheadding"> Security
                 Questions
     </string>
+    <string name="fill">Please Fill the Field</string>
 
 
     <string-array name="beneficiary">Select Transmission
 
         <item>Choose from Beneficiary</item>
-        <item>P.G.Perera</item>
-        <item>K.M. Kumara</item>
+        <item>SLIIT University</item>
+        <item>Kothalawala University</item>
+        <item>Ananda College</item>
+        <item>Cisco Company</item>
+    </string-array>
+
+
+    <string-array name="MyBeneficiary">Select Transmission
+
+        <item>Choose from Beneficiary</item>
+        <item>Bussiness Account </item>
+        <item>Personal Account</item>
     </string-array>
 
 

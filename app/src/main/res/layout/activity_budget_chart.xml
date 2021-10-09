@@ -4,106 +4,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IT19207100.BudgetChart">
+    tools:context=".IT19207100.BudgetChart"
+    android:background="#FFC107"
+    >
 
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="420dp"
-        android:layout_height="863dp"
-        android:alpha="0.7"
-        android:background="@drawable/backg"
+    <View
+        android:id="@+id/view"
+        android:layout_width="444dp"
+        android:layout_height="814dp"
 
-        android:minHeight="750dp"
-        tools:layout_editor_absoluteY="3dp"></ImageView>
-
-    <com.github.mikephil.charting.charts.PieChart
-        android:id="@+id/piechart"
-        android:layout_width="394dp"
-        android:layout_height="310dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/view"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view3">
+        app:layout_constraintTop_toBottomOf="@+id/imageView28" />
 
-    </com.github.mikephil.charting.charts.PieChart>
 
     <View
         android:id="@+id/view3"
         android:layout_width="331dp"
         android:layout_height="109dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="64dp"
         android:background="@drawable/budgetcard"
-        android:backgroundTint="#FFC107"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toTopOf="@+id/view" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:text="Budget Calculator"
-        android:textColor="#000000"
-        android:textSize="24sp"
+        android:layout_marginStart="68dp"
+        android:text="Saving"
+        android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.constraintlayout.widget.Barrier
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:barrierDirection="left"
-        tools:layout_editor_absoluteX="411dp"
-        tools:layout_editor_absoluteY="151dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/expense2"
+        app:layout_constraintStart_toStartOf="@+id/view3" />
 
     <View
         android:id="@+id/divider"
         android:layout_width="0.5dp"
         android:layout_height="60dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="24dp"
         android:background="@color/cardview_dark_background"
         app:layout_constraintEnd_toEndOf="@+id/view3"
         app:layout_constraintStart_toStartOf="@+id/view3"
         app:layout_constraintTop_toTopOf="@+id/view3" />
 
     <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Saving"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBaseline_toBaselineOf="@+id/expense2"
-        app:layout_constraintEnd_toStartOf="@+id/divider"
-        app:layout_constraintHorizontal_bias="0.487"
-        app:layout_constraintStart_toStartOf="@+id/view3" />
-
-    <TextView
-        android:id="@+id/expense2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="56dp"
-        android:text="Expences"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/view3"
-        app:layout_constraintHorizontal_bias="0.018"
-        app:layout_constraintStart_toEndOf="@+id/divider"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-
-
-    <TextView
         android:id="@+id/save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="Rs. 15340.00"
         android:textColor="#009688"
         android:textSize="20sp"
@@ -115,23 +73,71 @@
         android:id="@+id/expense"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:text="Rs. 6500.00"
         android:textColor="#E91E63"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/view3"
-        app:layout_constraintHorizontal_bias="0.735"
+        app:layout_constraintHorizontal_bias="0.659"
         app:layout_constraintStart_toEndOf="@+id/save"
         app:layout_constraintTop_toBottomOf="@+id/expense2" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Budget Calculator"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart"
+        android:layout_width="394dp"
+        android:layout_height="310dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3">
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left"
+        tools:layout_editor_absoluteX="411dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+
+    <TextView
+        android:id="@+id/expense2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Expences"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/divider"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
 
     <View
         android:id="@+id/view4"
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/circle"
         android:backgroundTint="#E91E63"
         android:backgroundTintMode="src_over"
@@ -143,7 +149,7 @@
         android:id="@+id/view6"
         android:layout_width="28dp"
         android:layout_height="28dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="108dp"
         android:background="@drawable/circle"
         android:backgroundTint="#4CAF50"
@@ -182,7 +188,7 @@
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:layout_marginStart="103dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/circle"
         android:backgroundTint="#FFEB3B"
         android:backgroundTintMode="src_over"
@@ -340,6 +346,17 @@
         app:layout_constraintEnd_toStartOf="@+id/view12"
         app:layout_constraintStart_toEndOf="@+id/view11"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="124dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/boc_logo_big" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,70 +4,77 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IT19207100.MoneyTransfer.PaymentSuccess">
+    tools:context=".IT19207100.MoneyTransfer.PaymentSuccess"
+    android:background="#FFC107"
+
+    >
 
     <ImageView
-        android:id="@+id/imageViewt"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:alpha="0.7"
-        android:background="@drawable/backg"
-
-        android:minHeight="750dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/imageView30"
+        android:layout_width="124dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.47"></ImageView>
+        app:srcCompat="@drawable/boc_logo_big" />
+
 
     <View
         android:id="@+id/viewt"
-        android:layout_width="370dp"
-        android:layout_height="273dp"
-        android:alpha="0.9"
-        android:background="@drawable/budgetcard"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="435dp"
+        android:layout_height="776dp"
+        android:layout_marginTop="16dp"
+
+        android:background="@drawable/view"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView30" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="358dp"
+        android:layout_height="441dp"
+        android:layout_marginTop="72dp"
+        android:alpha="0.9"
+        android:background="@drawable/payment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27" />
 
     <TextView
         android:id="@+id/textView32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="23dp"
         android:text="Payment Success"
-        android:textColor="#FFC107"
+        android:textColor="#F44336"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/viewt"
-        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="@+id/viewt"
-        app:layout_constraintTop_toTopOf="@+id/viewt" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView24" />
 
     <ImageView
         android:id="@+id/imageView24"
-        android:layout_width="61dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintEnd_toEndOf="@+id/viewt"
-        app:layout_constraintHorizontal_bias="0.481"
-        app:layout_constraintStart_toEndOf="@+id/textView32"
-        app:layout_constraintTop_toTopOf="@+id/viewt"
+        android:layout_width="197dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view5"
         app:srcCompat="@drawable/success" />
 
     <TextView
         android:id="@+id/textView38"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
         android:text="Reference Number : "
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -77,9 +84,9 @@
         android:id="@+id/textView39"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="52dp"
+        android:layout_marginEnd="56dp"
         android:text="f542ah455hdf96"
-        android:textColor="#F40404"
+        android:textColor="#090808"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView38"
@@ -87,25 +94,24 @@
 
     <Button
         android:id="@+id/ok"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="68dp"
         android:backgroundTint="@color/dark_background"
         android:text="Ok"
         android:textColor="#FFC107"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.832"
-        app:layout_constraintStart_toStartOf="@+id/imageViewt"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView39" />
 
     <ImageView
         android:id="@+id/imageView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/viewt"
         app:srcCompat="@drawable/step3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
