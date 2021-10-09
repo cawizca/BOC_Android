@@ -106,7 +106,7 @@
         app:lineHeight="20dp" />
 
     <Button
-        android:id="@+id/next_button2"
+        android:id="@+id/agree_btn"
         android:layout_width="256dp"
         android:layout_height="63dp"
         android:layout_marginBottom="24dp"
@@ -159,7 +159,7 @@
         android:id="@+id/imageView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/next_button2"
+        app:layout_constraintBottom_toTopOf="@+id/agree_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"

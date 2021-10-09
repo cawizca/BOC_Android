@@ -83,7 +83,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/next_button2"
+        android:id="@+id/agree_btn"
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
@@ -108,7 +108,7 @@
         android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/next_button2"
+        app:layout_constraintTop_toBottomOf="@+id/agree_btn"
         app:layout_constraintVertical_bias="0.394"
         app:srcCompat="@drawable/ic_bag" />
 
@@ -121,7 +121,7 @@
         android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_service"
-        app:layout_constraintTop_toBottomOf="@+id/next_button2"
+        app:layout_constraintTop_toBottomOf="@+id/agree_btn"
         app:layout_constraintVertical_bias="0.393"
         app:srcCompat="@drawable/ic_offers" />
 
@@ -134,7 +134,7 @@
         android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_offers"
-        app:layout_constraintTop_toBottomOf="@+id/next_button2"
+        app:layout_constraintTop_toBottomOf="@+id/agree_btn"
         app:layout_constraintVertical_bias="0.394"
         app:srcCompat="@drawable/ic_location" />
 
@@ -147,7 +147,7 @@
         android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_location"
-        app:layout_constraintTop_toBottomOf="@+id/next_button2"
+        app:layout_constraintTop_toBottomOf="@+id/agree_btn"
         app:layout_constraintVertical_bias="0.394"
         app:srcCompat="@drawable/ic_contact" />
 

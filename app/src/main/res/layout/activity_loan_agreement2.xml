@@ -121,7 +121,7 @@
         app:lineHeight="20dp" />
 
     <Button
-        android:id="@+id/next_button2"
+        android:id="@+id/agree_btn"
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_marginBottom="24dp"

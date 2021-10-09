@@ -30,6 +30,7 @@
     </string>
 
     <string name="txtotp">OTP</string>
+    <string name="txtBtn">Test</string>
 
     <string name="textnotrecive"> Did not recive OTP?</string>
     <string name="resendtxt"> Resend</string>
@@ -39,6 +40,7 @@
     </string>
     <string name="fill">Please Fill the Field</string>
     <string name="accountNo">Please Enter account number</string>
+    <string name="invalid">Insert numbers only.</string>
 
 
     <string-array name="beneficiary">Select Transmission

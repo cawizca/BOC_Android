@@ -24,7 +24,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         service_btn = (ImageButton) findViewById(R.id.btn_service);
-        signin_btn = findViewById(R.id.next_button2);
+        signin_btn = findViewById(R.id.agree_btn);
 
         service_btn.setOnClickListener(new View.OnClickListener() {
             @Override
