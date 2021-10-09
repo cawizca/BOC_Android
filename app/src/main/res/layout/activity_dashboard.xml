@@ -182,7 +182,7 @@
                     android:layout_height="100dp"
                     android:layout_alignParentRight="true"
                     android:maxHeight="100dp"
-                    android:src="@drawable/ic_home" />
+                    android:src="@drawable/graph1" />
 
             </RelativeLayout>
 
@@ -238,7 +238,7 @@
                     android:layout_height="100dp"
                     android:layout_alignParentRight="true"
                     android:maxHeight="100dp"
-                    android:src="@drawable/ic_baseline_account_balance_24" />
+                    android:src="@drawable/graph2" />
 
             </RelativeLayout>
 
