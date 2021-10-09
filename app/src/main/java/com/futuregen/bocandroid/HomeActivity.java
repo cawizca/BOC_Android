@@ -24,7 +24,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         service_btn = (ImageButton) findViewById(R.id.btn_service);
-
+        signin_btn = findViewById(R.id.next_button2);
 
         service_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,8 +43,6 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(contsctIntent);
             }
         });
-
-        signin_btn =findViewById(R.id.btnhomesign);
 
         signin_btn.setOnClickListener(new View.OnClickListener() {
             @Override
