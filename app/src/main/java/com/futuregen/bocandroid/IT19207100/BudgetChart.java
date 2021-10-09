@@ -26,7 +26,7 @@ public class BudgetChart extends AppCompatActivity {
 
     String[] months = {"Savings", "Family", "Food", "Travel", "Insurance", "Bills", "Loan", "Other"};
     int[] salary = {50000, 42000, 45000, 84110, 25000, 14000, 15000, 2000};
-    int[] colorArray = new int[]{ Color.RED,Color.LTGRAY, Color.BLUE, Color.CYAN, Color.DKGRAY, Color.GREEN, Color.MAGENTA, Color.BLACK};
+    int[] colorArray = new int[]{ Color.BLUE,Color.LTGRAY, Color.RED, Color.CYAN, Color.DKGRAY, Color.GREEN, Color.MAGENTA, Color.BLACK};
 
     PieChart pieChart;
 
@@ -100,11 +100,11 @@ public class BudgetChart extends AppCompatActivity {
 
 
         ArrayList<Integer> colors = new ArrayList<>();
-        colors.add(Color.parseColor("#FF4D52"));
+        colors.add(Color.parseColor("#1845D4"));
         colors.add(Color.parseColor("#36FF4B"));
         colors.add(Color.parseColor("#0CC518"));
         colors.add(Color.parseColor("#19AAFE"));
-        colors.add(Color.parseColor("#1845D4"));
+        colors.add(Color.parseColor("#FF4D52"));
         colors.add(Color.parseColor("#B58F14"));
         colors.add(Color.parseColor("#FFC300"));
         colors.add(Color.parseColor("#C115FF"));

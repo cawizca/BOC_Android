@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Flutter Projects/BOCAndroid/app/src/main/res/layout/activity_home.xml" value="0.22" />
-        <entry key="..\:/Flutter Projects/BOCAndroid/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Udara android/BOC_Android/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Udara android/BOC_Android/app/src/main/res/layout/activity_loan_agreement1.xml" value="0.25" />
+        <entry key="..\:/Udara android/BOC_Android/app/src/main/res/layout/activity_loan_agreement2.xml" value="0.23157894736842105" />
+        <entry key="..\:/Udara android/BOC_Android/app/src/main/res/layout/activity_loan_agreement3.xml" value="0.25" />
+        <entry key="..\:/Udara android/BOC_Android/app/src/main/res/layout/activity_login.xml" value="0.23157894736842105" />
+        <entry key="..\:/Udara android/BOC_Android/app/src/main/res/layout/activity_service_menu.xml" value="0.2293159609120521" />
         <entry key="..\:/Users/Udara/Desktop/BOC_Android/app/src/main/res/layout/activity_contact.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/Udara/Desktop/BOC_Android/app/src/main/res/layout/activity_forgot.xml" value="0.264" />
         <entry key="..\:/Users/Udara/Desktop/BOC_Android/app/src/main/res/layout/activity_home.xml" value="0.1539855072463768" />

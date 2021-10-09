@@ -37,6 +37,27 @@
     <string name="Securityheadding"> Security
                 Questions
     </string>
+    <string name="fill">Please Fill the Field</string>
+    <string name="accountNo">Please Enter account number</string>
+
+
+    <string-array name="beneficiary">Select Transmission
+
+        <item>Choose from Beneficiary</item>
+        <item>SLIIT University</item>
+        <item>Kothalawala University</item>
+        <item>Ananda College</item>
+        <item>Cisco Company</item>
+    </string-array>
+
+
+    <string-array name="MyBeneficiary">Select Transmission
+
+        <item>Choose from Beneficiary</item>
+        <item>Bussiness Account </item>
+        <item>Personal Account</item>
+    </string-array>
+
 
     <string name="resettitle">Reset Password</string>
     <string name="txtNewPassword">New Password</string>

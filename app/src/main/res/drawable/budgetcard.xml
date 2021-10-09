@@ -3,13 +3,15 @@
     >
 
     <stroke
-        android:color="@color/primary_yellow"
+        android:color="#FFC107"
         android:width="3dp"
         >
 
     </stroke>
 
+<solid android:color="#FFFEFC"
 
+    ></solid>
 
 
     <corners android:bottomLeftRadius="45dp"

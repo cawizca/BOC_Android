@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tower"
+    tools:context=".BillActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="529dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/header_background" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="160dp"
+            android:fontFamily="@font/poppins"
+            android:text="Welcome"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="110dp"
+            android:fontFamily="@font/poppins"
+            android:text="Udara Madhuranga"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView20"
+            app:layout_constraintStart_toEndOf="@+id/textView7"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.178"
+            app:srcCompat="@drawable/ic_baseline_notifications_24" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView20"
+            app:layout_constraintEnd_toEndOf="@+id/imageView20"
+            app:layout_constraintHorizontal_bias="0.06"
+            app:layout_constraintStart_toEndOf="@+id/imageView22"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.323"
+            app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/textView7"
+            app:layout_constraintTop_toBottomOf="@+id/imageView22"
+            app:layout_constraintVertical_bias="0.2" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="5dp"
+            android:text="Profile"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.888"
+            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.2" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="58dp"
+            android:fontFamily="@font/poppins"
+            android:text="Login details>>"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView20"
+            app:layout_constraintEnd_toStartOf="@+id/imageView22"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            app:layout_constraintVertical_bias="0.125" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="78dp"
+            android:layout_height="53dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView20"
+            app:layout_constraintEnd_toStartOf="@+id/textView7"
+            app:layout_constraintHorizontal_bias="0.388"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.444"
+            app:srcCompat="@drawable/boc_logo_big" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bill Payment"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/electricity"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="Electricity"
+            android:drawableLeft="@drawable/ic_info"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="textStart"
+            tools:ignore="MissingClass,RtlCompat"
+            android:paddingStart="10dp"
+            android:textColor="#000"
+            android:background="@drawable/rounded_corner"
+            />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="Water"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_baseline_waves_24"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="textStart"
+            tools:ignore="RtlCompat"
+            android:paddingStart="10dp"
+            android:textColor="#000"
+            android:background="@drawable/rounded_corner"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="Telephone"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_phone"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="textStart"
+            tools:ignore="RtlCompat"
+            android:paddingStart="10dp"
+            android:background="@drawable/rounded_corner"
+            android:textColor="#000"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="Postpaid Mobile"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_mobile"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="textStart"
+            tools:ignore="RtlCompat"
+            android:paddingStart="10dp"
+            android:background="@drawable/rounded_corner"
+            android:textColor="#000"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="Broadband"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_wifi"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="textStart"
+            tools:ignore="RtlCompat"
+            android:paddingStart="10dp"
+            android:background="@drawable/rounded_corner"
+            android:textColor="#000"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="Tv"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_tv"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="textStart"
+            tools:ignore="RtlCompat"
+            android:paddingStart="10dp"
+            android:background="@drawable/rounded_corner"
+            android:textColor="#000"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="Insurance Payment"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_insurance"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="textStart"
+            tools:ignore="RtlCompat"
+            android:paddingStart="10dp"
+            android:background="@drawable/rounded_corner"
+            android:textColor="#000"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

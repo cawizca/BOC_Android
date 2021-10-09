@@ -6,10 +6,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
 import android.widget.EditText;
+=======
+
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.futuregen.bocandroid.IT19209012.Dashboard;
 import com.futuregen.bocandroid.R;
 
 public class LoginActivity extends AppCompatActivity {
@@ -25,6 +29,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         forgot =findViewById(R.id.txtForgot);
+<
         username = findViewById(R.id.loginUserNameId);
         Password =findViewById(R.id.loginPasswordId);
         login = findViewById(R.id.btnlogin);
@@ -38,6 +43,8 @@ public class LoginActivity extends AppCompatActivity {
 
                 validate(user,p);
 
+
+
             }
         });
 
@@ -46,6 +53,8 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(LoginActivity.this,Forgot.class);
                 startActivity(i);
+
+
             }
         });
 
