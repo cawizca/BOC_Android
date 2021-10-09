@@ -4,7 +4,7 @@
     >
 
     <stroke
-        android:color="@color/primary_yellow"
+        android:color="#E91E63"
         android:width="2dp"
         >
 
